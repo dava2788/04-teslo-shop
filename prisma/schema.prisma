@@ -54,7 +54,7 @@ model Product {
   categoryID   String
 
   //Relaciones
-  ProudctImage ProductImage[]
+  ProductImage ProductImage[]
 
   @@index([gender])
 }
