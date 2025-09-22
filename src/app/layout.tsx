@@ -5,7 +5,10 @@ import { InterMono } from "@/config/fonts";
 
 
 export const metadata: Metadata = {
-  title: "Teslo Shop App",
+  title: {
+    template: '%s - Teslo | Shop',
+    default:'Home Teslo | Shop'
+  },
   description: "Una tienda virtual de products",
 };
 
